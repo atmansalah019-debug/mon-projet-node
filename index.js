@@ -1,18 +1,13 @@
-"console.log('Hello Node');"
-// index.js (branche dev)
-function addition(a, b) {
-	return a + b;
-}
-if (require.main === module){
-	consol.log("Resultat:", addition(5, 4))
-}
-module.exports = { addition }
-
-
+<<<<<<< HEAD 
+// addition(a, b) -> retourne la somme de a et b 
 function addition(a, b) { 
 return a + b; // simple addition 
 } 
-if (require.main === module) { 
-console.log("Résultat:", addition(5, 3)); 
+======= 
+function addition(a, b) { 
+return a + b; 
 } 
-module.exports = { addition }; 
+function soustraction(a, b) { 
+return a - b; 
+} 
+>>>>>>> feature 
